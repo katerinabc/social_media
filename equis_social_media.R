@@ -5,10 +5,10 @@ library("rtweet")
 library("rio")
 
 # authenticate
-setup_twitter_oauth(consumer_key='0i2JCz10FhsWrJmgy7iLldVXp', 
-                    consumer_secret='nkIgmAQ6at24ydUnm5olrOY64OqJ1fHFwYOVYQ636HvJ1mewSy', 
-                    access_token='2220997760-6XDKYaSCv3D0jPJ9XRRG5dhOSzmjwc88llGbUa2', 
-                    access_secret='ZIMBaNce0ltCeOooPn9giK3lKPNgmUs78rHHoua09ZoQ8')
+setup_twitter_oauth(consumer_key='', 
+                    consumer_secret='', 
+                    access_token='-', 
+                    access_secret='')
 
 ## path of home directory
 home_directory <- path.expand("~/")
